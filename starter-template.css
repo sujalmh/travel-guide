@@ -1,0 +1,53 @@
+body {
+  padding-top: 5rem;
+  background-color:rgb(179, 181, 184);
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+p.lead{
+  background-color: rgba(255, 255, 255, .5);
+}
+main{
+  background-image: url("header-bg.jpg");
+  object-fit: cover;
+  background-position: centre;
+  background-repeat: no-repeat;
+}
+h2{
+  color: rgb(2, 2, 36);
+}
+.column {
+  float: left;
+  width: 42.5%;
+  padding: 5px;
+  margin-left: 5%;
+  margin-top: 1%;
+}
+img.logo{
+  display: inline;
+  margin-left: 2%;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+h3{
+  margin-left: 3%;
+  color: #000000;
+}
+footer{
+  background-color: rgb(52, 58, 64);
+  margin-top: 1%;
+}
+p.foo{
+  color: rgb(255, 255, 255);
+  margin-left: 2%;
+}
+a.foot{
+  color: rgb(0, 255, 255);
+}

@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Home</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  
+  <script src = "../slideshow.js"></script>
+         
+      
+  <link rel="stylesheet" href="album.css">
+   
+</head>
+
+<header>
+    
+  <div class="collapse bg-dark" id="navbarHeader">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-md-7 py-4">
+          <h4 class="text-white">About</h4>
+          <p class="text-muted">This site contains some of the famous Tourist Places in Karnataka. This site is created by Sujal M H.<br>Email: sujalmh9@gmail.com</p>
+        </div>
+        <div class="col-sm-4 offset-md-1 py-4">
+          
+          <ul class="list-unstyled">
+            <li><a href="index.html" class="text-white">Cover</a></li>
+            <li><a href="https://www.kstdc.co/" class="text-white" target="_blank">Official Karnataka Tourism Website</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Tourism_in_Karnataka" class="text-white" target="_blank">Wikipedia page</a></li>
+            <li><a href="coursera.html" class="text-white">Coursera</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navbar navbar-dark bg-dark shadow-sm">
+    <div class="container d-flex justify-content-between">
+      <span class="navbar-brand d-flex align-items-center">
+        <strong>Tourism in Karnataka</strong>
+      </span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="true" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        
+      </button>
+    </div>
+  </div>
+</header>
+
+<main role="main">
+
+  <section class="jumbotron text-center">
+    <div class="container first">
+      <br>
+      <h2>A destination where wonder meets experience</h2>
+      <p >Karnataka cannot be felt, it has to be lived. It’s majestically bestowed with everything from plains to mountains, valleys to rivers, high-rises to ancient temples, and artificial gardens to coffee plantations.</p>
+    
+        
+      
+    </div>
+    <span  class="btn btn-primary my-2" onclick="update()">Prev</span>
+        <span class="btn btn-secondary my-2" onclick="undo()">Next</span>
+  </section>
+  
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-4 col-sm-12 sujal">
+          <div class="mb-4 shadow-sm">
+            <div class="card-body">
+            <img src="images/2.jpg" width="100" height="225"     class="card-img-top"  alt="Picture of Hampi's Stone Chariot" >
+          
+
+            
+                <h4>North Karnataka</h4>
+              <p class="card-text">North Karnataka has monuments that date back to the 5th century. Kannada empires that ruled the Deccan had their capitals here. Badami Chalukyas monuments are located at Pattadakal, Aihole and Badami.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://www.kstdc.co/tour-categories/heritage-holidays/" target="blank">KSTDC</a></button>
+                  <a href="http://www.google.com/search?q=tourism+in+north+karnataka" target="blank"><button type="button" class="btn btn-sm btn-outline-secondary">Search Google</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12 sujal">
+          <div class="mb-4 shadow-sm">
+            <div class="card-body">
+            <img src="images/3.jpg" width="100" height="225"     class="card-img-top" alt="Picture of Shiva of Murdeshwar">
+            
+                <h4>Coastal Karnataka</h4>
+              <p class="card-text">Coastal Karnataka is the stronghold of Hindu and Jain pilgrimage spots with Udupi and its many temples being the centre of Dvaita philosophy, Gokarna is known for Vedic studies, Sringeri has the first of the Shankaracharya mathas and is important for its Advaita philosophy, Karkala and Mudabidri are well known places of Jain worship and Vaishnava rituals. Exquisite Vijayanagar temples built in Chalukya – Malabar region combinational style are seen in Bhatkal, Kumta, Shirali etc. The warm beaches of Karnataka are mostly unspoiled.
+
+            </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="http://www.google.com/search?q=tourism+in+coastal+karnataka" target="blank"><button type="button" class="btn btn-sm btn-outline-secondary">Search Google</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12 sujal">
+          <div class="mb-4 shadow-sm">
+            <div class="card-body">
+            <img src="images/4.jpg" width="100" height="225"     class="card-img-top" alt="A view of old tree from top of a mountain"   >
+            
+                <h4>South Karnataka</h4>
+              <p class="card-text">South Karnataka is a unique combination of spectacular vesara style Hoysala architecture, colossal Jain monuments, colonial buildings and palaces of the Kingdom of Mysore, impregnable fort at Chitradurga and densely forested wildlife sanctuaries that offer some of the best eco-tourism available in the country. Belur, Halebidu in Hassan District, Somnathpura in Mysore District, Belavadi, Kalasa and Amrithapura in Chikmagalur District, Balligavi in Shimoga District offer some of the best of Hoysala architecture</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://www.kstdc.co/tour-packages/south-karnataka-temple-tour/" target="blank"><button type="button" class="btn btn-sm btn-outline-secondary">KSTDC</button></a>
+                  <a href="http://www.google.com/search?q=tourism+in+south+karnataka" target="blank"><button type="button" class="btn btn-sm btn-outline-secondary">Search Google</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-12 sujal">
+          <div class="mb-4 shadow-sm">
+            <div class="card-body">
+            <img src="images/5.jpg" width="100" height="225"      class="card-img-top" alt="Mysore Palace"  >
+            
+                <h4>Forts and Palaces</h4>
+              <p class="card-text">Karnataka forts and palaces form an indelible part of Karnataka tourism. Karnataka without its Karnataka forts and palaces is incomplete, as the cultural heritage strictly depend upon these forts and palaces.Karnataka has a long history that chiefly constitutes of the Sultans and their endeavor towards strengthening their roots in Karnataka. Karnataka forts and palaces, indeed, are witnesses to those endeavor and strife.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://www.google.com/search?q=karnataka+forts+and+palaces" target="blank"> <button type="button" class="btn btn-sm btn-outline-secondary">Search Google</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12 sujal">
+          <div class="mb-4 shadow-sm">
+            <div class="card-body">
+            <img src="images/6.jpg" width="100" height="225"      class="card-img-top" alt="Bandipur National Park"  >
+            
+                <h4>National Parks and Wildlife Sanctuaries</h4>
+              <p class="card-text">Karnataka in all has 21 wildlife sanctuaries and 5 National parks. Recently, the government of India has proposed to the UNESCO to include important ecosystems in the Western Ghats as a World Heritage Site.The state is home to the largest concentration of Asian Elephants along Kabini River in Nagarahole and Bandipur parks. These two parks also hold among the most viable population of the highly endangered Indian Tiger.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://www.google.com/search?q=karnataka+national+parks+and+wildlife" target="blank"> <button type="button" class="btn btn-sm btn-outline-secondary">Search Google</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12 sujal">
+          <div class="mb-4 shadow-sm">
+            <div class="card-body">
+            <img src="images/7.jpg" width="100" height="225"      class="card-img-top" alt="Jog Falls"  >
+            
+                <h4>Waterfalls</h4>
+              <p class="card-text">Karnataka has a number of waterfalls. Jog Falls of Sagara Taluk is one of the highest waterfalls in Asia. Some well known waterfalls are Varapoha Falls, Magod Falls, Lalgulli Falls, Sathodi Falls, Unchalli Falls, Lushington Falls, Shivaganga Falls, Ulavi Falls, Irupu Falls, Sivasamudram Falls near Shivanasamudra, Balmuri Falls, Gokak Falls, Abbe Falls, Achakanya Falls, Chunchanakatte Falls, Hebbe Falls.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://www.google.com/search?q=karnataka+waterfalls" target="blank"> <button type="button" class="btn btn-sm btn-outline-secondary">Search Google</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+        
+        
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer class="text-muted">
+  <div class="container">
+    <p class="float-right">
+      <a href="#">Back to top</a>
+    </p>
+    <p>Check this website's <a href="album.css">CSS File</a> and the <a href="slideshow.js">JavaScript</a> file used for the slideshow above.<br>This website was created by Sujal M H as a projext for a course.<br><br>Template by &copy; <a href="https://getbootstrap.com/">Bootstrap</a></p>
+  </div>
+</footer>
