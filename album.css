@@ -6,6 +6,11 @@
   background-image: url('images/15.jpg');
   background-size: 100% 100%;
 }
+#slide { 
+  transition-property: background-image;
+  transition-duration: 0.5s; 
+}
+
 .first{
   background-color: rgba(255, 255, 255, .6);
   -webkit-border-radius: 5px;
@@ -66,4 +71,10 @@ footer {
 
 footer p {
   margin-bottom: .25rem;
+}
+
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
